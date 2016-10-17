@@ -1,0 +1,17 @@
+---
+caching:
+  expires: 10800
+db:
+  adapter: mysql2
+  encoding: utf8
+  host: localhost
+  username: root
+  password:
+  port: 3306
+  database: traitdb
+elastic:
+  encoding: utf8
+  host: localhost
+  username:
+  password:
+  port: 9200

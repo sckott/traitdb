@@ -1,0 +1,129 @@
+cab859b90-020a-418b-80fc-b7492378e92,class,class
+cab859b90-020a-418b-80fc-b7492378e92,order,order
+cab859b90-020a-418b-80fc-b7492378e92,family,family
+cab859b90-020a-418b-80fc-b7492378e92,genus,genus
+cab859b90-020a-418b-80fc-b7492378e92,species,species
+cab859b90-020a-418b-80fc-b7492378e92,subspecies,subspecies
+cab859b90-020a-418b-80fc-b7492378e92,common_name,common_name
+cab859b90-020a-418b-80fc-b7492378e92,female_maturity_d,female_maturity_d
+cab859b90-020a-418b-80fc-b7492378e92,litter_or_clutch_size_n,litter_or_clutch_size_n
+cab859b90-020a-418b-80fc-b7492378e92,litters_or_clutches_per_y,litters_or_clutches_per_y
+cab859b90-020a-418b-80fc-b7492378e92,adult_body_mass_g,adult_body_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,maximum_longevity_y,maximum_longevity_y
+cab859b90-020a-418b-80fc-b7492378e92,gestation_d,gestation_d
+cab859b90-020a-418b-80fc-b7492378e92,weaning_d,weaning_d
+cab859b90-020a-418b-80fc-b7492378e92,birth_or_hatching_weight_g,birth_or_hatching_weight_g
+cab859b90-020a-418b-80fc-b7492378e92,weaning_weight_g,weaning_weight_g
+cab859b90-020a-418b-80fc-b7492378e92,egg_mass_g,egg_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,incubation_d,incubation_d
+cab859b90-020a-418b-80fc-b7492378e92,fledging_age_d,fledging_age_d
+cab859b90-020a-418b-80fc-b7492378e92,longevity_y,longevity_y
+cab859b90-020a-418b-80fc-b7492378e92,male_maturity_d,male_maturity_d
+cab859b90-020a-418b-80fc-b7492378e92,inter_litter_or_interbirth_interval_y,inter_litter_or_interbirth_interval_y
+cab859b90-020a-418b-80fc-b7492378e92,female_body_mass_g,female_body_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,male_body_mass_g,male_body_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,no_sex_body_mass_g,no_sex_body_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,egg_width_mm,egg_width_mm
+cab859b90-020a-418b-80fc-b7492378e92,egg_length_mm,egg_length_mm
+cab859b90-020a-418b-80fc-b7492378e92,fledging_mass_g,fledging_mass_g
+cab859b90-020a-418b-80fc-b7492378e92,adult_svl_cm,adult_svl_cm
+cab859b90-020a-418b-80fc-b7492378e92,male_svl_cm,male_svl_cm
+cab859b90-020a-418b-80fc-b7492378e92,female_svl_cm,female_svl_cm
+cab859b90-020a-418b-80fc-b7492378e92,birth_or_hatching_svl_cm,birth_or_hatching_svl_cm
+cab859b90-020a-418b-80fc-b7492378e92,female_svl_at_maturity_cm,female_svl_at_maturity_cm
+cab859b90-020a-418b-80fc-b7492378e92,female_body_mass_at_maturity_g,female_body_mass_at_maturity_g
+cab859b90-020a-418b-80fc-b7492378e92,no_sex_svl_cm,no_sex_svl_cm
+cab859b90-020a-418b-80fc-b7492378e92,no_sex_maturity_d,no_sex_maturity_d
+z85a07642-9f49-408c-a16f-f71135d9450f,paper_code,paper code
+z85a07642-9f49-408c-a16f-f71135d9450f,mite_superfamily,mite superfamily
+z85a07642-9f49-408c-a16f-f71135d9450f,mite_family,mite family
+z85a07642-9f49-408c-a16f-f71135d9450f,mite_genus,mite genus
+z85a07642-9f49-408c-a16f-f71135d9450f,mite_species,mite species
+z85a07642-9f49-408c-a16f-f71135d9450f,author_&_date,author and date
+z85a07642-9f49-408c-a16f-f71135d9450f,host_order,host order
+z85a07642-9f49-408c-a16f-f71135d9450f,host_family,host family
+z85a07642-9f49-408c-a16f-f71135d9450f,host_species,host species
+z85a07642-9f49-408c-a16f-f71135d9450f,host_ssp,host subspecies
+z85a07642-9f49-408c-a16f-f71135d9450f,continent,continent
+z85a07642-9f49-408c-a16f-f71135d9450f,country_collected,country specimen collected
+z85a07642-9f49-408c-a16f-f71135d9450f,locality,locality notes
+z85a07642-9f49-408c-a16f-f71135d9450f,data_quality,data quality code
+z85a07642-9f49-408c-a16f-f71135d9450f,quality_note,data quality note
+a7b74844-cabf-4176-9233-adf3b21f974b,number,species code
+a7b74844-cabf-4176-9233-adf3b21f974b,family,plant family name
+a7b74844-cabf-4176-9233-adf3b21f974b,binomial,species taxonomic binomial name
+a7b74844-cabf-4176-9233-adf3b21f974b,wood_density,wood density (g/cm^3, oven dry mass/fresh volume)
+a7b74844-cabf-4176-9233-adf3b21f974b,region,geospatial region
+a7b74844-cabf-4176-9233-adf3b21f974b,reference_number,reference number (see References table in original file GlobalWoodDensityDatabase.xls)
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,species,species name
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,average,mean value
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,max,maximum value
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,source,data source
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,notes,notes
+a6fff969-de4b-4e99-8e2e-1b3864b8fe7e,inferred,inferred average lengths based on the relationship in Fig S3 between ave and max lengths (see main text for details)
+e078eac6-484c-47bc-a09f-da7e2940bd70,SpecID,Integer; Jetz Lab Species ID; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,PassNonPass,"Character; Passeriformes,    Nonpassseriformes; NA"
+e078eac6-484c-47bc-a09f-da7e2940bd70,IOCOrder,Character; IOC V2.7 Checklist    Order; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,BLFamilyLatin,Character; Birdlife V3.0    Checklist Family Latin; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,BLFamilyEnglish,Character; Birdlife V3.0    Checklist Family English; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,BLFamSequID,Character; Birdlife V3.0    Checklist Family Sequence; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,Taxo,Character; Taxonomic authority    used for species; BL3: Birdlife V3.0;    IOC27: IOC V2.7
+e078eac6-484c-47bc-a09f-da7e2940bd70,Scientific,Character; Species Latin name; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,English,Character; Species English name; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Inv,"Integer; Percent use of: Invertebrates-general, aquatic invertebrates, shrimp, krill, squid,    crustacaeans, molluscs, cephalapod, polychaetes, gastropods, orthoptera,    terrestrial Invertebrates, ground insects, insect larvae, worms,    orthopterans, flying insects; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Vend,"Integer; Percent use of: Mammals,    Birds; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Vect,"Integer; Percent use of: Reptiles,    snakes, amphibians, salamanders; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Vfish,Integer; Percent use of: Fish; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Vunk,Integer; Percent use of: Vertebrates-general    or unknown; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Scav,"Integer; Percent use of: Scavenge,    garbage, offal, carcasses, trawlers, carrrion; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Fruit,"Integer; Percent use of: Fruit,    drupes; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Nect,"Integer; Percent use of: Nectar,    pollen, plant exudates, gums; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Seed,"Integer; Percent use of: Seed,    maize, nuts, spores, wheat, grains; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-PlantO,"Integer; Percent use of: Other    plant material, Grass, ground vegetation, seedlings, weeds, lichen, moss,    small plants, reeds, cultivated crops, forbs, vegetables, fungi, roots,    tubers, legumes, bulbs, leaves, above ground vegetation, twigs, bark, shrubs,    herbs, shoots, aquatic vegetation, aquatic plants; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-5Cat,"Character; Assignment to the    dominant among five diet categories based on the summed scores of constituent    individual diets.; PlantSeed: Plant and Seeds, FruiNect: Fruits and Nectar,    Invertebrate: Invertebrates, VertFishScav: Vertebrates and Fish and    Carrion, Omnivore: score of <= 50 in all four categories"
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Source,Character; Literature source used; Link to Ref_ID in    Table 3
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-Certainty,"Character; Dietary relevance    score reliability; A  Highly certain that the source is reliable and has provided    accurate diet information. B  Reasonably confident that source is reliable,    however information on relative proportion of each diet category making up    the whole diet is possibly uncertain. C  Quality of source diet estimate    unclear or inferred from a specific congeneric species with good sources. D1,    D2  Species-level information missing and value is that typical for genus    (D1) or family (D2)."
+e078eac6-484c-47bc-a09f-da7e2940bd70,Diet-EnteredBy, ; Name of primary    transcriber of diet data;
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-watbelowsurf,Integer; Prevalence of: Foraging below the water surfaces; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-wataroundsurf,Integer; Prevalence of: Foraging on or just (<5 inches) below water surface; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-ground,Integer; Prevalence of: Foraging on ground; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-understory,"Integer; Prevalence of: Foraging below 2m in understory in forest, forest edges, bushes or shrubs; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-midhigh,"Integer; Prevalence of: Foraging in mid to high levels in trees or high bushes (2m upward), but below    canopy; estimated % use (categories sum to 100% total)"
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-canopy,Integer; Prevalence of: Foraging    in or just above (from) tree canopy; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-aerial,Integer; Prevalence of: Foraging well above vegetation or any structures; estimated % use (categories sum to 100% total)
+e078eac6-484c-47bc-a09f-da7e2940bd70,PelagicSpecialist,Binary; Foraging    predominantly pelagic. Source for all: Handbook of the Birds of the World; 0: no; 1: yes
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-Source,Character; Source of estimates    for foraging stratum; Link to Ref_ID in    Table 3
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-SpecLevel,Binary; Indicates whether    foraging stratum estimates are based on species-level data; 0: no; 1: yes
+e078eac6-484c-47bc-a09f-da7e2940bd70,ForStrat-EnteredBy,"Character; Name of primary    transcriber of foraging stratum data;  "
+e078eac6-484c-47bc-a09f-da7e2940bd70,Nocturnal,Binary; Main foraging    activity at night. Source for all: Handbook of the Birds of the World; 0: no; 1: yes
+e078eac6-484c-47bc-a09f-da7e2940bd70,BodyMass-Value,Floating Point; Body mass (g). For    Source Dunning08: Geometric mean of average values provided for both sexes    (Dunning08). For Source GenAvg: genus average as provided by other sources; NA
+e078eac6-484c-47bc-a09f-da7e2940bd70,BodyMass-Source,"Character; Source of body mass    values.; PrimScale: inferred    from select primary sources with mass and length data, and mass-length    relationships parameterized at family level. GenAvg: genus average. Other:    see comments."
+e078eac6-484c-47bc-a09f-da7e2940bd70,BodyMass-SpecLevel,Binary; Indicates whether    body mass values are based on species-level data; 1: based on species    level data; 0: inferred from genus or family typical values
+e078eac6-484c-47bc-a09f-da7e2940bd70,BodyMass-Comment,Character; Misc. comments; MarceloR: mobilized or    calculated from length estimates by Marcelo Rivadeneira
+e078eac6-484c-47bc-a09f-da7e2940bd70,Record-Comment,Character; Indicates whether    data record arose from species split; NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,MSW3_ID,Integer; Jetz Lab Species ID; NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Scientific,Character; MSW3 Species Latin    name; NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,MSWFamilyLatin,Character; MSW3 Checklist Family    Latin; NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Inv,"Integer; Percent use of: Invertebrates-general, aquatic invertebrates, shrimp, krill, squid,    crustacaeans, molluscs, cephalapod, polychaetes, gastropods, orthoptera,    terrestrial Invertebrates, ground insects, insect larvae, worms,    orthopterans, flying insects; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Vend,"Integer; Percent use of: Mammals, Birds; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Vect,"Integer; Percent use of: Reptiles, snakes, amphibians, salamanders; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Vfish,Integer; Percent use of: Fish; estimated % use (categories sum to 100% total)
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Vunk,Integer; Percent use of: Vertebrates-general or unknown; estimated % use (categories sum to 100% total)
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Scav,"Integer; Percent use of: Scavenge, garbage, offal, carcasses, trawlers, carrion; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Fruit,"Integer; Percent use of: Fruit, drupes; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Nect,"Integer; Percent use of: Nectar, pollen, plant exudates, gums; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Seed,"Integer; Percent use of: Seed, maize, nuts, spores, wheat, grains; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-PlantO,"Integer; Percent use of: Other plant material, Grass, ground vegetation, seedlings, weeds, lichen,    moss, small plants, reeds, cultivated crops, forbs, vegetables, fungi, roots,    tubers, legumes, bulbs, leaves, above ground vegetation, twigs, bark, shrubs,    herbs, shoots, aquatic vegetation, aquatic plants; estimated % use (categories sum to 100% total)"
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Source,Character; Reference ID. Refer    to Mammal Reference Table for full list of references; Link to Ref_ID in    Table 4
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Diet-Certainty,"Character; Estimated    reliability of relative diet scores; ABC  Highly, reasonably or somewhat certain that the source is    reliable. In some cases the estimate may come from a specific congeneric    species that is expert-judged to be ecologically very similar. D1, D2     Species-level information missing and value is that typical for genus (D1) or    family (D2)."
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,ForStrat-Value,"Character / Ordinal; Assignment to one    of five (possibly ordinal when excluding marine species) foraging stratum    categories. Source for all: Nowak (1999).; M - marine, G - ground level, including aquatic foraging (see    ForStrat-Comment), S- scansorial, Ar - arboreal, A- aerial."
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,ForStrat-Certainty,Character; Estimated    reliability of foraging stratum assignment; A - Certain that the    source is reliable and has provided accurate foraging stratum    information.  B  Assignment uncertain.
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,ForStrat-Comment,Character; Any comments; NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Activity-Nocturnal,Binary; Foraging activity at night; 0: no; 1: yes
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Activity-Crepuscular,Binary; Foraging activity at twilight.; 0: no; 1: yes
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Activity-Diurnal,Binary; Foraging activity at day; 0: no; 1: yes
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Activity-Source,Character; Literature source of activity cycle estimate; Link to Ref_ID in    Table 4
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,Activity-Certainty,"Character; Estimated reliability of activity cycle estimates; ABC  Highly, reasonably or somewhat certain that the source is    reliable. In some cases the estimate may come from a specific congeneric    species that is expert-judged to be ecologically very similar. D1, D2     Species-level information missing and value is that typical for genus (D1) or    family (D2)."
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,BodyMass-Value,Floating Point; (Average) Adult body mass (g); NA
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,BodyMass-Source,Character; Literature source used; Link to Ref_ID in    Table 4
+c7bc858d-26e9-48cc-904b-fa4f1933faf8,BodyMass-SpecLevel,Integer; Indicates whether body mass values are based on species-level data; 1: based on species    level data; 0: inferred from genus or family typical values; 2: Based on    phylogenetically imputed values (see Ref_178 for details and variance    measures)
