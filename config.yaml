@@ -6,7 +6,7 @@ db:
   encoding: utf8
   host: localhost
   username: root
-  password:
+  password: root
   port: 3306
   database: traitdb
 elastic:
