@@ -1,13 +1,15 @@
 require "yaml"
 require "elasticsearch"
-require "s3"
+require 'aws-sdk'
 require "multi_json"
 
 $config = YAML::load_file(File.join(__dir__, ENV['RACK_ENV'] == 'test' ? 'test_config.yaml' : 'config.yaml'))
 
 $esclient = Elasticsearch::Client.new url: 'http://localhost:9200'
 
-$s3client = S3::Service.new(:access_key_id => ENV['AWS_ACCESS_KEY_ID'], :secret_access_key => ENV['AWS_ACCESS_KEY_SECRET'])
+creds = Aws::Credentials.new(ENV['AWS_S3_BERK_WRITE_ACCESS_KEY'], ENV['AWS_S3_BERK_WRITE_SECRET_KEY'])
+client = Aws::S3::Client.new(region: 'us-west-2', credentials: creds)
+$signer = Aws::S3::Presigner.new(client: client)
 
 def datasets
   begin
@@ -94,7 +96,5 @@ end
 
 def s3_fetch
   id = params["id"]
-  bucket = $s3client.bucket("traitdbs")
-  object = bucket.objects.find(id + ".csv")
-  object.temporary_url(Time.now + 300)
+  return $signer.presigned_url(:get_object, bucket: 'traitdbz', key: id + '.csv', expires_in: 3600)
 end

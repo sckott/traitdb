@@ -6,6 +6,7 @@ require "sinatra/multi_route"
 require "active_record"
 require "redis"
 require "mysql2"
+
 require_relative 'model'
 require_relative 'utils'
 
@@ -15,6 +16,7 @@ ActiveRecord::Base.establish_connection($config['db'])
 
 $redis = Redis.new host: ENV.fetch('REDIS_PORT_6379_TCP_ADDR', 'localhost'),
                    port: ENV.fetch('REDIS_PORT_6379_TCP_PORT', 6379)
+
 
 class TraitDBApp < Sinatra::Application
   register Sinatra::MultiRoute
@@ -32,6 +34,8 @@ class TraitDBApp < Sinatra::Application
   end
 
   before do
+    pass if %w[fetch].include? request.path_info.split('/')[3]
+
     headers "Content-Type" => "application/json; charset=utf8"
     headers "Access-Control-Allow-Methods" => "HEAD, GET"
     headers "Access-Control-Allow-Origin" => "*"
@@ -47,6 +51,9 @@ class TraitDBApp < Sinatra::Application
   end
 
   after do
+    puts request.path_info.split('/')[3]
+    pass if %w[fetch].include? request.path_info.split('/')[3]
+
     # cache response in redis
     if $config['caching'] && !response.headers['Cache-Hit'] && response.status == 200
       $redis.set(@cache_key, response.body[0], ex: $config['caching']['expires'])
