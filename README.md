@@ -12,8 +12,8 @@ There are single places to look for trait data, e.g., TRY, but I am fundamentall
 ## Under the hood
 
 * API: Ruby/Sinatra
-* Storage: PostgreSQL
-* Search: Elasticsearch
+* Storage: MySQL
+* Search: ...
 * Caching: Redis
   * each key cached for 3 hours
 * Server: Caddy
@@ -22,38 +22,4 @@ There are single places to look for trait data, e.g., TRY, but I am fundamentall
 
 ## Examples
 
-```
-body = {
-  :selector => {
-    :_id => {
-      :$gt => nil
-    }
-  }
-}
-
-out = conn.post do |req|
-  req.url "/%s/_find" % params["id"]
-  req.headers['Content-Type'] = 'application/json'
-  req.body = MultiJson.dump(body)
-end
-```
-
-```
-curl -v -H "Content-Type: application/json" -XPOST 'http://localhost:8877/dataset/cab859b90-020a-418b-80fc-b7492378e92' -d '{"selector":{"genus":"Rhipidura"},"limit":3}' | jq .
-```
-
-
-```
-curl -v -XPOST -H "Content-Type: application/json"  'http://localhost:8877/dataset/cab859b90-020a-418b-80fc-b7492378e92/search' -d '{
-    "aggs":{
-        "bodysizes":{
-            "histogram":{
-                "field":"adult_body_mass_g",
-                "interval":200
-            }
-        }
-    }
-}'| jq .
-```
-
-
+coming soon ...
