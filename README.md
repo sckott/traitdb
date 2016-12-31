@@ -20,7 +20,7 @@ There are single places to look for trait data, e.g., TRY, but I am fundamentall
 
 ## API
 
-* root path <https://traits.party> - redirects to `/heartbeat`
+* root path <https://traits.party/> - redirects to `/heartbeat`
 * `/heartbeat`
 
 ```r
